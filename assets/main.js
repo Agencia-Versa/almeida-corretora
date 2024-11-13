@@ -6,7 +6,7 @@ const blackFridayBanner=()=>{let $=document.querySelector(".black-friday-banner"
 window.onload=()=>{slider();menu();blackFridayBanner();
     window.addEventListener('scroll', function () {
         console.log(window.scrollY);
-        if(window.scrollY > 400 && !bfo){
+        if(window.scrollY > 800 && !bfo){
             let $=document.querySelector(".black-friday-banner");$.classList.add("minimized")
             bfo = true;
         }
